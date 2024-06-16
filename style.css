@@ -79,3 +79,20 @@ img {
   display: block;
   margin: auto;
 }
+
+.bank-details {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bank-details img {
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+.account-info {
+  margin-left: 10px;
+}
