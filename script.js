@@ -9,8 +9,8 @@ yesBtn.addEventListener("click", () => {
 });
 
 const moveNoButton = () => {
-  noBtn.style.left = "0px"; // Reset to initial position
-  noBtn.style.top = "0px"; // Reset to initial position
+  noBtn.style.left = "0px";
+  noBtn.style.top = "0px";
 
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
