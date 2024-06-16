@@ -5,8 +5,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Hura I love you <3";
-  gif.src =
-    "https://media.tenor.com/buDL1OjJF6kAAAAi/tonton-tonton-friends.gif";
+  gif.src = "./imgs/tonton-tonton-friends.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
